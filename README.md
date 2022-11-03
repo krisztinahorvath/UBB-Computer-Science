@@ -38,7 +38,7 @@
   </tr>
   <tr>
      <td> 5. </td>
-    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%202/Graph%20Algorithms"><b>Logical and functional programming</b></a> </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Logical-and-functional-programming"><b>Logical and functional programming</b></a> </td>
     <td> Prolog, LISP </td>
   </tr>
  </table>
