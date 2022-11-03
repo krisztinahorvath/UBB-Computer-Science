@@ -30,8 +30,8 @@
     <td> Assembly </td>
   </tr>
   <td> 5. </td>
-    <td> <a href=""><b>Programming Fundamentals</b></a> </td>
-    <td> Assembly </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%201/Programming%20Fundamentals"><b>Programming Fundamentals</b></a> </td>
+    <td> Python </td>
   </tr>
   <tr>
     <td colspan=3 align=center><i>2nd Semester</i></td>
