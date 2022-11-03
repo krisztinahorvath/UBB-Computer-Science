@@ -77,7 +77,7 @@
   <tr>
      <td> 13. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Advanced%20Programming%20Methods/Labs/A1"><b>Advanced Programming Methods</b></a> </td>
-    <td> Java </td>
+    <td> C, Java, PHP </td>
   </tr>
   <tr>
      <td> 14. </td>
