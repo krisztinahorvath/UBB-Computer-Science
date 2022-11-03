@@ -1,0 +1,3 @@
+ceva;open;ana;maria
+aa;open;ana;maia
+bb;closed;ana;baba

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainForm</class>
+ <widget class="QWidget" name="MainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Movies</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>30</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Choose file type:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Choose mode:</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>70</y>
+     <width>111</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QRadioButton" name="htmlButton">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>html</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QRadioButton" name="csvButton">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>csv</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>166</width>
+     <height>62</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="1">
+     <widget class="QPushButton" name="user_btn">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>user</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="admin_btn">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>admin</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

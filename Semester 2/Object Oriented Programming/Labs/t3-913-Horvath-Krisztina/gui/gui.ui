@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GUI</class>
+ <widget class="QWidget" name="GUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>10</y>
+     <width>271</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="prec_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>20</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="descrip_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="start_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hours_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>compute total</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

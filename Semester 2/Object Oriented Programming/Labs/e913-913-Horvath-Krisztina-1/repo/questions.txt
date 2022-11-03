@@ -1,0 +1,5 @@
+1;cine este maria;maria este o fata;10
+2;cine este obama;fostul presedinte sua;20
+11;qwe;ad;12
+12;wqd;wqd;1
+111;ascdvf;asdvf;111

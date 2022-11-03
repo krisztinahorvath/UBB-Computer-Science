@@ -1,0 +1,5 @@
+1;cine este obama;ana
+2;cine a inventat apa;elena
+12;aa;iulia
+123;aa;ana
+19;ceva;ana

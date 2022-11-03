@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GUI</class>
+ <widget class="QWidget" name="GUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>456</width>
+    <height>315</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>40</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>id</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>80</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>text</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>answer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>170</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>score</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>200</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>add</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text_q_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>80</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="answer_q_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>120</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="score_q_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>160</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id_q_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>40</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="answer_p_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>37</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>answer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="answer_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>260</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>answer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="score_label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>10</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Score 0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

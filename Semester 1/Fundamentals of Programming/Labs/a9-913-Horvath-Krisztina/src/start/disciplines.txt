@@ -1,0 +1,20 @@
+40,Criminology
+5,PE
+10,Drawing
+27,English
+3,Algebra
+29,Spanish
+32,AP Calculus
+4,Calculus
+28,French
+33,Psychology
+17,Databases
+8,Graphs
+18,Probability and statistics
+12,Dynamical Systems
+6,Logic
+11,Debugging 101
+7,Communication
+2,CSA
+14,Geometry
+25,Virtual reality

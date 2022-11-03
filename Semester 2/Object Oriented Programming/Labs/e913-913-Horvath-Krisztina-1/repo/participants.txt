@@ -1,0 +1,3 @@
+ana;0
+maria;0
+iulia;21

@@ -1,0 +1,5 @@
+ana;tester
+maria;programmer
+berni;programmer
+monica;programmer
+krisztina;tester
