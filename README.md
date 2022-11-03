@@ -26,7 +26,7 @@
   <tr>
      <td> 3. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%202/Graph%20Algorithms"><b>Graph Algorithms</b></a> </td>
-    <td> C++ </td>
+    <td> Python </td>
   </tr>
   <tr>
      <td> 4. </td>
@@ -43,7 +43,7 @@
   </tr>
   <tr>
      <td> 6. </td>
-    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Logical-and-functional-programming"><b>Advanced Programming Methods</b></a> </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Advanced%20Programming%20Methods/Labs/A1"><b>Advanced Programming Methods</b></a> </td>
     <td> Java </td>
   </tr>
  </table>
