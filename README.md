@@ -13,12 +13,12 @@
   <tr>
      <td> 1. </td>
     <td> <a href=""><b>Algebra</b></a> </td>
-    <td> Python </td>
+    <td> </td>
   </tr>
   <tr>
      <td> 2. </td>
     <td> <a href=""><b>Mathematical Analysis</b></a> </td>
-    <td> Python </td>
+    <td>  </td>
   </tr>
   <tr>
      <td> 3. </td>
@@ -27,7 +27,7 @@
   </tr>
   <td> 4. </td>
     <td> <a href=""><b>Computational Logic</b></a> </td>
-    <td> Assembly </td>
+    <td>  </td>
   </tr>
   <td> 5. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%201/Programming%20Fundamentals"><b>Programming Fundamentals</b></a> </td>
@@ -54,12 +54,12 @@
    <tr>
      <td> 9. </td>
     <td> <a href=""><b>Geometry</b></a> </td>
-    <td> C++ </td>
+    <td>  </td>
   </tr>
   <tr>
      <td> 10. </td>
     <td> <a href=""><b>Dynamical Systems</b></a> </td>
-    <td> C++ </td>
+    <td>  </td>
   </tr>
   <tr>
      <td> 11. </td>
@@ -77,7 +77,7 @@
   <tr>
      <td> 13. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Advanced%20Programming%20Methods/Labs/A1"><b>Advanced Programming Methods</b></a> </td>
-    <td> C, Java, PHP </td>
+    <td> Java </td>
   </tr>
   <tr>
      <td> 14. </td>
@@ -87,12 +87,12 @@
   <tr>
      <td> 15. </td>
     <td> <a href=""><b>Probability and Statistics</b></a> </td>
-    <td> SQL </td>
+    <td>  </td>
   </tr>
   <tr>
      <td> 15. </td>
     <td> <a href=""><b>Computer Networks</b></a> </td>
-    <td> SQL </td>
+    <td> C, Java, PHP, Python </td>
   </tr>
  </table>
 
