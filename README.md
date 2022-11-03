@@ -12,8 +12,26 @@
   </tr>
   <tr>
      <td> 1. </td>
-    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%201/Fundamentals%20of%20Programming/Labs"><b>Fundamentals of Programming</b></a> </td>
+    <td> <a href=""><b>Algebra</b></a> </td>
     <td> Python </td>
+  </tr>
+  <tr>
+     <td> 2. </td>
+    <td> <a href=""><b>Mathematical Analysis</b></a> </td>
+    <td> Python </td>
+  </tr>
+  <tr>
+     <td> 3. </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%201/Computer%20Systems%20Architecture"><b>Computer Systems Architecture</b></a> </td>
+    <td> Assembly </td>
+  </tr>
+  <td> 4. </td>
+    <td> <a href=""><b>Computational Logic</b></a> </td>
+    <td> Assembly </td>
+  </tr>
+  <td> 5. </td>
+    <td> <a href=""><b>Programming Fundamentals</b></a> </td>
+    <td> Assembly </td>
   </tr>
   <tr>
     <td colspan=3 align=center><i>2nd Semester</i></td>
