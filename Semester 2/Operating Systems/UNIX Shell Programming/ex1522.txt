@@ -1,0 +1,33 @@
+#!/bin/bash
+ 
+   if [ "$#" -lt 1 ]; then
+      echo "Please give at least one argumnet"
+      exit 1
+   fi
+  
+   sum=0
+  for input in "$@"
+  do
+     user_name=$(cat  '/etc/passwd' | grep -E "${input}")
+     if [ ! -z "$user_name" ];then
+        name=$(echo $user_name | awk -F ':' '{print $5}')
+        only_name=$(echo '$name' | awk -F '-' '{print $3}')
+        echo "$only_name $home_dir"
+ 
+        home_dir=$(echo "$user_name" | awk -F ':' '{print $(NF-1)}')
+        if [ -r "$home_dir" ];then
+           for d in $(find $home_dir -type d)
+           do
+               echo $d
+           done
+        else
+           echo "Can't read from home directory $home_dir"$'\n'
+        fi
+     else
+        if [ $(echo "$input" | grep -E "^[0-9]$" | wc -l) > 0 ];then
+           sum=$(($sum+$input))
+        fi
+     fi
+  done
+ 
+  echo "The sum of the numbers is: $sum"

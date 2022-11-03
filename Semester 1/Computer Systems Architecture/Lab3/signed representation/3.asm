@@ -3,7 +3,7 @@ global start
 
 extern exit
 import  exit msvcrt.dll
-    ;20.x-b+8+(2*a-b)/(b*b)+e;  signed
+    ;20.x-b+8+(2*a-b)/(b*b)+e;  
     ;a-word; b-byte; e-doubleword; x-qword - multiplication, division - signed representation
 segment data use32 class = data
     a dw 0101h
