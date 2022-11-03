@@ -12,24 +12,34 @@
   </tr>
   <tr>
      <td> 1. </td>
-    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Fundamentals%20of%20Programming/Labs"><b>Fundamentals of Programming</b></a> </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%201/Fundamentals%20of%20Programming/Labs"><b>Fundamentals of Programming</b></a> </td>
     <td> Python </td>
   </tr>
   <tr>
     <td colspan=3 align=center><i>2nd Semester</i></td>
   </tr>
   <tr>
-     <td> 1. </td>
-    <td> <a href="https://github.com/913-Horvath-Krisztina/Logical-and-functional-programming"><b>Logical and Functional Programming</b></a> </td>
-    <td> Prolog </td>
+     <td> 2. </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%202/Data%20Structures%20and%20Algorithms"><b>Data Structures and Algorithms</b></a> </td>
+    <td> C++ </td>
+  </tr>
+  <tr>
+     <td> 3. </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%202/Graph%20Algorithms"><b>Graph Algorithms</b></a> </td>
+    <td> C++ </td>
+  </tr>
+  <tr>
+     <td> 4. </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%202/Object%20Oriented%20Programming"><b>Object Oriented Programming</b></a> </td>
+    <td> C, C++ </td>
   </tr>
   <tr>
     <td colspan=3 align=center><i>3rd Semester</i></td>
   </tr>
   <tr>
-     <td> 1. </td>
-    <td> <a href="https://github.com/913-Horvath-Krisztina/Logical-and-functional-programming"><b>Logical and Functional Programming</b></a> </td>
-    <td> Prolog </td>
+     <td> 5. </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%202/Graph%20Algorithms"><b>Logical and functional programming</b></a> </td>
+    <td> Prolog, LISP </td>
   </tr>
  </table>
 
