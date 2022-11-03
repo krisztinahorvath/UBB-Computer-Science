@@ -41,6 +41,11 @@
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Logical-and-functional-programming"><b>Logical and functional programming</b></a> </td>
     <td> Prolog, LISP </td>
   </tr>
+  <tr>
+     <td> 6. </td>
+    <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Logical-and-functional-programming"><b>Advanced Programming Methods</b></a> </td>
+    <td> Java </td>
+  </tr>
  </table>
 
 
