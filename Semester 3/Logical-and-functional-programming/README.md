@@ -16,6 +16,5 @@ define a predicate to add in every sublist the divisors of every element.
 Eg.: [1, [2, 5, 7], 4, 5, [1, 4], 3, 2, [6, 2, 1], 4, [7, 2, 8, 1], 2] =>
 [1, [2, 5, 7], 4, 5, [1, 4, 2], 3, 2, [6, 2, 3, 2, 1], 4, [7, 2, 8, 2, 4, 1], 2]
 
-P3
-1. Write a predicate to generate the list of all subsets with all elements of a given list. 
+P3 1. Write a predicate to generate the list of all subsets with all elements of a given list. 
  Eg: [2, 3, 4] N=2 => [[2,3],[2,4],[3,4]]
