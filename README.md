@@ -17,7 +17,7 @@
   </tr>
   <tr>
      <td> 2. </td>
-    <td> <a href=><b>Mathematical Analysis</b></a> </td>
+    <td> <b>Mathematical Analysis</b></a> </td>
     <td> differential calculus, integral calculus, Least Squares, planar curves </td>
   </tr>
   <tr>
@@ -26,7 +26,7 @@
     <td> x86 Assembly, C, low-level multi-module programming </td>
   </tr>
   <td> 4. </td>
-    <td> <a href=><b>Computational Logic</b></a> </td>
+    <td> <b>Computational Logic</b></a> </td>
     <td> CNF, DNF, propositional calculus, predicate calculus, Boolean algebra, logic circuits </td>
   </tr>
   <td> 5. </td>
@@ -53,12 +53,12 @@
   </tr>
    <tr>
      <td> 9. </td>
-    <td> <a href=><b>Geometry</b></a> </td>
+    <td> <b>Geometry</b></a> </td>
     <td> analytic geometry, quadratic curves & surfaces, affine geometry </td>
   </tr>
   <tr>
      <td> 10. </td>
-    <td> <a href=><b>Dynamical Systems</b></a> </td>
+    <td> <b>Dynamical Systems</b></a> </td>
     <td> Maple, Sage, Taylor expansion, Newton's second law of movement </td>
   </tr>
   <tr>
@@ -81,17 +81,17 @@
   </tr>
   <tr>
      <td> 14. </td>
-    <td> <a href=><b>Databases</b></a> </td>
+    <td> <b>Databases</b></a> </td>
     <td> SQL </td>
   </tr>
   <tr>
      <td> 15. </td>
-    <td> <a href=><b>Probability and Statistics</b></a> </td>
+    <td> <b>Probability and Statistics</b></a> </td>
     <td>  </td>
   </tr>
   <tr>
      <td> 16. </td>
-    <td> <a href=><b>Computer Networks</b></a> </td>
+    <td> <b>Computer Networks</b></a> </td>
     <td> C, Java, PHP, Python </td>
   </tr>
  </table>
