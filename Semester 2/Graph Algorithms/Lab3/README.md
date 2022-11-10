@@ -1,4 +1,4 @@
-# graphs-lab3
+# lab3
 
 Note: computing the minimum cost walk (as some kind of a list of vertices) is a mandatory part of the assignment.
 
