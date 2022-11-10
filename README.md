@@ -12,7 +12,7 @@
   </tr>
   <tr>
      <td> 1. </td>
-    <td> <a href=><b>Algebra</b></a> </td>
+    <td> <b>Algebra</b></a> </td>
     <td> linear Algebra, page ranking, cryptography </td>
   </tr>
   <tr>
