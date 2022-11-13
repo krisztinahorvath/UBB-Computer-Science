@@ -31,8 +31,7 @@ class UI:
               "\t19 - List the inbound edges of a given vertex\n"  
               "\t20 - List all outbound vertices of the graph\n"  
               "\t21 - List all inbound vertices of the graph\n" 
-              "\t22 - List edges and costs\n"
-              "\t23 - List connected components of the graph \n"  
+              "\t22 - List edges and costs\n" 
               "\t0 - Exit\n")
 
     def start(self):
@@ -48,8 +47,7 @@ class UI:
                         "15": self.nr_vertices_ui, "16": self.nr_edges_ui,
                         "17": self.iterate_all_vertices, "18": self.list_outbound,
                         "19": self.list_inbound, "20": self.list_all_outbound,
-                        "21": self.list_all_inbound, "22": self.list_all_costs,
-                        "23": self.connected_components_ui}
+                        "21": self.list_all_inbound, "22": self.list_all_costs}
 
         while True:
             try:
@@ -247,20 +245,4 @@ class UI:
                 self._graph_list[self._this_graph].cost[nr])
             print(line)
 
-    def connected_components_ui(self):
-        all_components = self._graph_list[self._this_graph].connected_components()
-
-        for component in range(len(all_components)):
-            print("Component " + str(component + 1) + ":")
-
-            print("Vertices:")
-            outbound_keys = list(self._graph_list[self._this_graph].out_vertices.keys())
-            for i in outbound_keys:
-                print(i)
-
-            # print("Edges:")
-            # for i in outbound_keys:
-            #     for j in all_components[component].ret_out_dict(i):
-            #         print(str(i) + "ade")
-            #         # + " " + str(j) + str(all_components[component].cost(i, j)))
 UI().start()
