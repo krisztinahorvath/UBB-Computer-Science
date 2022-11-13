@@ -1,4 +1,4 @@
 # OOP-mock-test3.0
 
-![281877994_536204808037543_691576185250093143_n](https://user-images.githubusercontent.com/91715582/169838143-dbcd521d-19e2-4785-ae1a-7100e4ca0fb2.jpg)
+
 
