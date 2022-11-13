@@ -1,2 +1,0 @@
-# OOP-mock-exam2
-
