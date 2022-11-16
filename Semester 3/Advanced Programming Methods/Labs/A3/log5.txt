@@ -1,0 +1,86 @@
+Execution stack: 
+[ (int a|(int b|(a = 5|(b = 7|if(a > b){Print(a)}else{Print(b)})))) ]
+Symbol table: 
+Output list: 
+File table:
+
+Execution stack: 
+[ int a ]
+[ (int b|(a = 5|(b = 7|if(a > b){Print(a)}else{Print(b)}))) ]
+Symbol table: 
+Output list: 
+File table:
+
+Execution stack: 
+[ (int b|(a = 5|(b = 7|if(a > b){Print(a)}else{Print(b)}))) ]
+Symbol table: 
+a -> 0
+Output list: 
+File table:
+
+Execution stack: 
+[ int b ]
+[ (a = 5|(b = 7|if(a > b){Print(a)}else{Print(b)})) ]
+Symbol table: 
+a -> 0
+Output list: 
+File table:
+
+Execution stack: 
+[ (a = 5|(b = 7|if(a > b){Print(a)}else{Print(b)})) ]
+Symbol table: 
+a -> 0
+b -> 0
+Output list: 
+File table:
+
+Execution stack: 
+[ a = 5 ]
+[ (b = 7|if(a > b){Print(a)}else{Print(b)}) ]
+Symbol table: 
+a -> 0
+b -> 0
+Output list: 
+File table:
+
+Execution stack: 
+[ (b = 7|if(a > b){Print(a)}else{Print(b)}) ]
+Symbol table: 
+a -> 5
+b -> 0
+Output list: 
+File table:
+
+Execution stack: 
+[ b = 7 ]
+[ if(a > b){Print(a)}else{Print(b)} ]
+Symbol table: 
+a -> 5
+b -> 0
+Output list: 
+File table:
+
+Execution stack: 
+[ if(a > b){Print(a)}else{Print(b)} ]
+Symbol table: 
+a -> 5
+b -> 7
+Output list: 
+File table:
+
+Execution stack: 
+[ Print(b) ]
+Symbol table: 
+a -> 5
+b -> 7
+Output list: 
+File table:
+
+Execution stack: 
+Symbol table: 
+a -> 5
+b -> 7
+Output list: 
+7
+File table:
+
