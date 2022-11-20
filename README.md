@@ -81,7 +81,7 @@
   </tr>
   <tr>
      <td> 14. </td>
-    <td> <b>Databases</b></a> </td>
+    <td><a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%203/Databases"> <b>Databases</b></a> </td>
     <td> SQL </td>
   </tr>
   <tr>
