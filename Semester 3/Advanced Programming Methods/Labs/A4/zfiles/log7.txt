@@ -1,0 +1,231 @@
+Execution stack: 
+[ (Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ Ref(int) v ]
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ Ref(int) v ]
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ New(v, 20) ]
+[ (Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ New(v, 20) ]
+[ (Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (Ref(Ref(int)) a|(New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ Ref(Ref(int)) a ]
+[ (New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ Ref(Ref(int)) a ]
+[ (New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (New(a, v)|(Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5))) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ New(a, v) ]
+[ (Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ New(a, v) ]
+[ (Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ (Print(ReadHeap(v))|Print(ReadHeap(ReadHeap(a)) + 5)) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ Print(ReadHeap(v)) ]
+[ Print(ReadHeap(ReadHeap(a)) + 5) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ Print(ReadHeap(v)) ]
+[ Print(ReadHeap(ReadHeap(a)) + 5) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ Print(ReadHeap(ReadHeap(a)) + 5) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+20
+
+Execution stack: 
+[ Print(ReadHeap(ReadHeap(a)) + 5) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+20
+
+Execution stack: 
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+20
+25
+
+Execution stack: 
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+20
+25
+

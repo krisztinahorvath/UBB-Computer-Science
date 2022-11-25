@@ -1,0 +1,231 @@
+Execution stack: 
+[ (Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a)))))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ Ref(int) v ]
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ Ref(int) v ]
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))))) ]
+Symbol table: 
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (New(v, 20)|(Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ New(v, 20) ]
+[ (Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a)))))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ New(v, 20) ]
+[ (Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a)))))) ]
+Symbol table: 
+v -> (0, int)
+File table:
+Heap table:
+Output list: 
+
+Execution stack: 
+[ (Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a)))))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (Ref(Ref(int)) a|(New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a)))))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ Ref(Ref(int)) a ]
+[ (New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ Ref(Ref(int)) a ]
+[ (New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))) ]
+Symbol table: 
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (New(a, v)|(New(v, 30)|Print(ReadHeap(ReadHeap(a))))) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ New(a, v) ]
+[ (New(v, 30)|Print(ReadHeap(ReadHeap(a)))) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ New(a, v) ]
+[ (New(v, 30)|Print(ReadHeap(ReadHeap(a)))) ]
+Symbol table: 
+a -> (0, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+Output list: 
+
+Execution stack: 
+[ (New(v, 30)|Print(ReadHeap(ReadHeap(a)))) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ (New(v, 30)|Print(ReadHeap(ReadHeap(a)))) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ New(v, 30) ]
+[ Print(ReadHeap(ReadHeap(a))) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ New(v, 30) ]
+[ Print(ReadHeap(ReadHeap(a))) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (1, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+Output list: 
+
+Execution stack: 
+[ Print(ReadHeap(ReadHeap(a))) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (3, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+3 -> 30
+Output list: 
+
+Execution stack: 
+[ Print(ReadHeap(ReadHeap(a))) ]
+Symbol table: 
+a -> (2, Ref(int))
+v -> (3, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+3 -> 30
+Output list: 
+
+Execution stack: 
+Symbol table: 
+a -> (2, Ref(int))
+v -> (3, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+3 -> 30
+Output list: 
+20
+
+Execution stack: 
+Symbol table: 
+a -> (2, Ref(int))
+v -> (3, int)
+File table:
+Heap table:
+1 -> 20
+2 -> (1, int)
+3 -> 30
+Output list: 
+20
+
