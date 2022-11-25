@@ -68,8 +68,6 @@ as
 		add constraint teas_candidate_key unique (ttid, name, did)
 go
 
-exec newCandidateKeyTeas
-exec removeCandidateKeyTeas
 
 create or alter procedure removeCandidateKeyTeas
 as
@@ -84,8 +82,6 @@ as
 		add constraint gift_card_foreign_key foreign key(cid) references Clients(cid)
 go
 
-select * from GiftCard
-exec newForeignKeyGiftCard
 
 create or alter procedure removeForeignKeyGiftCard
 as
@@ -105,10 +101,6 @@ as
 	)
 go
 
-exec removeGiftCardTable
-exec addGiftCardTable
-exec newForeignKeyGiftCard
-exec removeForeignKeyGiftCard
 
 create or alter procedure removeGiftCardTable
 as 
@@ -124,8 +116,6 @@ create table versionTable (
 	[version] int
 )
 
-select * from versionTable
-drop table versionTable
 
 insert into versionTable
 values 
