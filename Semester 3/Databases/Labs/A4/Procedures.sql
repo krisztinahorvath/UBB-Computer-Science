@@ -94,7 +94,7 @@ create or alter view viewTeaOrders
 as
 	select Teas.name, sum(TeaOrders.quantity) as nrOfTeas
 	from TeaOrders inner join Teas on TeaOrders.tid = Teas.tid
-	group by Teas.name, TeaOrders.quantity
+	group by Teas.name
 go
 --select * from viewTeaOrders
 
