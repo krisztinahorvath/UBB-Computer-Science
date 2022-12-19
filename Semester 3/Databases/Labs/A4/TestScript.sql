@@ -479,4 +479,3 @@ ALTER TABLE [TestViews] ADD
 
 GO
 
-
