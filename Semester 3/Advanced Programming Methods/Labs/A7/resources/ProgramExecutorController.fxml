@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="617.0" prefWidth="929.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainWindowController">
+   <children>
+      <Button fx:id="executeButton" layoutX="625.0" layoutY="380.0" mnemonicParsing="false" onAction="#oneStepHandler" text="Execute One Step" />
+      <TextField fx:id="programStatesNrTextField" layoutX="34.0" layoutY="14.0" text="No of Program States: 0" />
+      <TableView fx:id="heapTableView" layoutX="9.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="heapTableAddr" prefWidth="75.0" text="Address" />
+            <TableColumn fx:id="heapTableValue" prefWidth="75.0" text="Value" />
+         </columns>
+      </TableView>
+      <ListView fx:id="outListView" layoutX="209.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="fileTableListView" layoutX="410.0" layoutY="72.0" prefHeight="200.0" prefWidth="200.0" />
+      <ListView fx:id="programStateIDListView" layoutX="410.0" layoutY="315.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="81.0" layoutY="55.0" text="Heap" />
+      <Label layoutX="288.0" layoutY="55.0" text="Output" />
+      <Label layoutX="480.0" layoutY="55.0" text="File Table" />
+      <Label layoutX="458.0" layoutY="292.0" text="Program State ID" />
+      <ListView fx:id="exeStackListView" layoutX="209.0" layoutY="315.0" prefHeight="200.0" prefWidth="200.0" />
+      <TableView fx:id="symTableView" layoutX="9.0" layoutY="315.0" prefHeight="200.0" prefWidth="200.0">
+         <columns>
+            <TableColumn fx:id="symTableName" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="symTableValue" prefWidth="75.0" text="Value" />
+         </columns>
+      </TableView>
+      <Label layoutX="59.0" layoutY="292.0" text="Symbol Table" />
+      <Label layoutX="266.0" layoutY="292.0" text="Execution Stack" />
+   </children>
+</AnchorPane>
