@@ -94,7 +94,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   <tr>
      <td> 16. </td>
     <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%203/Computer%20Networks/Labs"> <b>Computer Networks</b></a> </td>
-    <td> TCP/IP stack model, socket programming TCP/UDP, Open System Interconnection(OSI) model, NAT</td>
+    <td> TCP/IP stack model, socket programming TCP/UDP, Open System Interconnection(OSI) model, NAT, TCP 3-way handshake, congestion control, helper protocols</td>
   </tr>
  </table>
 
