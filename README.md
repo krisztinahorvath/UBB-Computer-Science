@@ -74,7 +74,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   <tr>
      <td> 12. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Logical-and-functional-programming"><b>Logical and functional programming</b></a> </td>
-    <td> Prolog, LISP, Imperative programming, Trees </td>
+    <td> Prolog, LISP, Trees, backtracking, dynamic data structures, MAP-functions </td>
   </tr>
   <tr>
      <td> 13. </td>
@@ -89,7 +89,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   <tr>
      <td> 15. </td>
     <td> <b>Probability and Statistics</b></a>  </td>
-    <td>  </td>
+    <td> Matlab, conditional probability, random variables, discrete probability laws, descriptive statistics </td>
   </tr>
   <tr>
      <td> 16. </td>
