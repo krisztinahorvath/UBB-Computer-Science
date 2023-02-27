@@ -74,27 +74,27 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   <tr>
      <td> 12. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Logical-and-functional-programming"><b>Logical and functional programming</b></a> </td>
-    <td> Prolog, LISP </td>
+    <td> Prolog, LISP, Imperative programming, Trees </td>
   </tr>
   <tr>
      <td> 13. </td>
     <td> <a href="https://github.com/913-Horvath-Krisztina/UBB-Computer-Science/tree/main/Semester%203/Advanced%20Programming%20Methods"><b>Advanced Programming Methods</b></a> </td>
-    <td> Java </td>
+    <td> Java, JavaFX, Java Streams, Java Wildcards, OOP concepts </td>
   </tr>
   <tr>
      <td> 14. </td>
     <td><a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%203/Databases"> <b>Databases</b></a> </td>
-    <td> SQL </td>
+    <td> SQL, DBMS, Microsoft SQL Server, Indexes, Relational Algebra </td>
   </tr>
   <tr>
      <td> 15. </td>
-    <td> <b>Probability and Statistics</b></a> </td>
+    <td> <b>Probability and Statistics</b></a>  </td>
     <td>  </td>
   </tr>
   <tr>
      <td> 16. </td>
     <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%203/Computer%20Networks/Labs"> <b>Computer Networks</b></a> </td>
-    <td> C, Java, PHP, Python </td>
+    <td> TCP/IP stack model, socket programming TCP/UDP, Open System Interconnection(OSI) model, NAT</td>
   </tr>
  </table>
 
