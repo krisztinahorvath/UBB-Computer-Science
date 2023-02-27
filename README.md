@@ -1,5 +1,7 @@
 # UBB-Computer-Science
 
+All of my university projects done at Babes-Bolyai University for Computer Science.
+
 ## Table of Contents
 <table align=center>
   <tr align=center>
