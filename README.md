@@ -93,7 +93,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   </tr>
   <tr>
      <td> 16. </td>
-    <td> <b>Computer Networks</b></a> </td>
+    <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%203/Computer%20Networks/Labs"> <b>Computer Networks</b></a> </td>
     <td> C, Java, PHP, Python </td>
   </tr>
  </table>
