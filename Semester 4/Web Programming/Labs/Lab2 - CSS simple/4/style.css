@@ -1,0 +1,75 @@
+.glowing-text {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 15px rgb(229, 67, 146);
+}
+
+.shadow{
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px hotpink;
+}
+p {
+    font-size: 25px;
+}
+
+/*#fire {*/
+/*    color: #050505;*/
+/*    text-shadow:*/
+/*            0px -2px 4px #fff,*/
+/*            0px -2px 10px #FF3,*/
+/*            0px -10px 20px #F90,*/
+/*            0px -20px 40px #C33;*/
+/*    font-size: 30px;*/
+/*}*/
+#fire{
+    /* -o-animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-name: animation; */
+    animation: animation 1s alternate infinite;
+    color: #050505;
+}
+
+@keyframes animation
+{
+    from {text-shadow: 0 0 1px #fefcc9,
+    1px -1px 2px #feec85,
+    -2px -2px 3px #ffae34,
+    2px -4px 4px #ec760c,
+    -2px -6px 5px #cd4606,
+    0 -8px 6px #973716,
+    1px -9px 7px #451b0e;}
+    to {
+        text-shadow: 0 0 3px #fefcc9,
+        2px -2px 6px #fefcc9,
+        -4px -4px 8px #feec85,
+        4px -8px 8px #ffae34,
+        -4px -10px 12px #ec760c,
+        2px -16px 14px #cd4606,
+        2px -18px 16px  #973716;
+    }
+}
+
+/*#underline{*/
+/*    color: #050505;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+.underline-word {
+    /* display as inline-block to avoid the underline stretching across the full width */
+    display: inline-block;
+    font-size: 30px;
+}
+
+.underline-word span {
+    /* set text-decoration to underline */
+    text-decoration: underline;
+}
+
+
+
+
+
+

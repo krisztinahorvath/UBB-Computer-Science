@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(197, 240, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    cursor:pointer;
+    padding: 15px;
+}
+
+.level0 {
+    background-color: rgb(18, 163, 210);
+    height: 550px;
+    width: 260px;
+}
+
+.level0-item{
+    font-size: 120%;
+    padding-bottom: 75px;;
+}
+
+.level1 {
+    background-color: rgb(49, 199, 255);
+    display: none;
+    margin-left: 180px;
+    position: absolute;
+    width: 320px;
+}
+
+.level2{
+    background-color: rgb(148, 215, 234);
+    display:none;
+    margin-left: 205px;
+    position: absolute;
+    width: 320px;
+}
+
+.level0 li:hover > .level1{
+    display:block;
+}
+
+.level1 li:hover > .level2{
+    display: block;
+}
