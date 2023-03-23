@@ -25,7 +25,7 @@ li {
 .level1 {
     background-color: rgb(49, 199, 255);
     display: none;
-    margin-left: 180px;
+    margin-left: 205px;
     position: absolute;
     width: 320px;
 }
@@ -33,7 +33,7 @@ li {
 .level2{
     background-color: rgb(148, 215, 234);
     display:none;
-    margin-left: 205px;
+    margin-left: 305px;
     position: absolute;
     width: 320px;
 }
