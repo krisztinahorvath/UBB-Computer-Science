@@ -96,6 +96,34 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
     <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%203/Computer%20Networks/Labs"> <b>Computer Networks</b></a> </td>
     <td> TCP/IP stack model, socket programming TCP/UDP, Open System Interconnection(OSI) model, NAT, TCP 3-way handshake, congestion control, helper protocols</td>
   </tr>
+   <tr>
+    <td colspan=3 align=center><i>4th Semester - in progress</i></td>
+  </tr>
+  <tr>
+     <td> 17. </td>
+    <td> <b>Software Engineering</b> </td>
+    <td>  </td>
+  </tr>
+  <tr>
+     <td> 18. </td>
+    <td> <b>Database Management Systems</b></td>
+    <td>  </td>
+  </tr>
+  <tr>
+     <td> 19. </td>
+    <td><a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Artificial%20Intelligence"> <b>Artificial Intelligence</b></a> </td>
+    <td> Python, Tensorflow </td>
+  </tr>
+  <tr>
+     <td> 20. </td>
+    <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Web%20Programming"><b>Web Programming</b></a>  </td>
+    <td> HTML, CSS </td>
+  </tr>
+  <tr>
+     <td> 21. </td>
+    <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Systems%20for%20Desing%20and%20Implementation"> <b>Systems for Desing and Implementation</b></a> </td>
+    <td>C#, .NET</td>
+  </tr>
  </table>
 
 
