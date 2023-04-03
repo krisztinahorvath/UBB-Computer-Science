@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Globalization;
-
+using System.Runtime.InteropServices;
 
 namespace DBMSLab1
 {
@@ -119,8 +119,14 @@ namespace DBMSLab1
                 {
                     if (textBoxTeaTypeId.Text.Length != 0)
                     {
-                        int ttid = Int32.Parse(textBoxTeaTypeId.Text);
+                        int ttid = 0 ;
 
+                        try
+                        {
+                            ttid = Int32.Parse(textBoxTeaTypeId.Text);
+                        }
+                        catch(Exception ex) { MessageBox.Show("The TeaTypeId field should be an integer!"); }
+                        
 
                         int quantity;
                         if (textBoxQuantity.Text.Length != 0)
@@ -213,10 +219,15 @@ namespace DBMSLab1
             }
             else
             {
-                int tid = Int32.Parse(textBoxTeaId.Text);
+                try
+                {
+                    int tid = Int32.Parse(textBoxTeaId.Text);
 
-                command.Parameters.Add("@tid", SqlDbType.Int);
-                command.Parameters["@tid"].Value = tid;
+                    command.Parameters.Add("@tid", SqlDbType.Int);
+                    command.Parameters["@tid"].Value = tid;
+                }
+                catch(Exception ex) { MessageBox.Show("The TeaId should be an integer!"); }
+                
 
                 try
                 {
