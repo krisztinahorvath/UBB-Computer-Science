@@ -106,7 +106,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   </tr>
   <tr>
      <td> 18. </td>
-    <td> <b>Database Management Systems</b></td>
+    <td><a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Database%20Management%20Systems"> <b>Database Management Systems</b></a></td>
     <td>  </td>
   </tr>
   <tr>
