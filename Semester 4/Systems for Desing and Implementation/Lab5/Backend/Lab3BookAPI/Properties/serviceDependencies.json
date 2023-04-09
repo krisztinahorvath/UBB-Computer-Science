@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "apis1": {
+      "type": "apis"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:BooksDatabase"
+    },
+    "secrets2": {
+      "type": "secrets",
+      "connectionId": "BooksAPIVault",
+      "dynamicId": null
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "BookAPIVault"
+    }
+  }
+}
