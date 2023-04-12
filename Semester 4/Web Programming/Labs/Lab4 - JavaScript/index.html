@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="big-container" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div id="container1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="island" src="island.jpg" alt="Island Holiday" draggable="true"
+                 ondragstart="drag(event)"
+            >
+            <div class="text-tag" id="text1" draggable="true"  ondragstart="drag(event)"> Let's go to Bora Bora! </div>
+        </div>
+
+        <div id="container2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="text-tag" id="text2" draggable="true"  ondragstart="drag(event)">
+                I can't go to Bora Bora! :,( </div>
+        </div>
+
+    </div>
+
+
+<script src="code.js"></script>
+</body>
+
+
+</html>
