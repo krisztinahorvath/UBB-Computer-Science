@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browse</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <h1>Browse</h1>
+
+    <div style="display: flex; align-items: center;">
+        <div>Type: </div>
+        <div class="select-editable">
+            <select id="type-select" onchange="this.nextElementSibling.value=this.value" class="dropdown" title="Select a type">
+                <option value=""></option>
+            </select>
+            <input id="type-input" type="text" name="format" value="" class="textbox" title="Enter a type" placeholder="Type">
+        </div>
+    </div>
+
+
+    <div style="display: flex; align-items: center;">
+        <div>Format: </div>
+        <div class="select-editable">
+            <select id="format-select" onchange="this.nextElementSibling.value=this.value" class="dropdown" title="Select a format">
+                <option value=""></option>
+            </select>
+            <input id="format-input" type="text" name="format" value="" class="textbox" title="Enter a format" placeholder="Format">
+        </div>
+    </div>
+
+    <div id="filterUsed"></div>
+    <div id="documentTable"></div>
+
+</body>
+<script>
+    $(document).ready(function() {
+        var lastFilterUsed = '';
+        var first = true;
+
+        populateSelectFormat();
+        populateSelectType();
+        function populateSelectFormat() {
+            console.log('populate select format');
+            const $select = $('#format-select');
+
+            $.getJSON('http://localhost/lab7/php/getByFormat.php?format=', function(data) {
+                data.forEach(item => {
+                    const $option = $('<option></option>');
+                    $option.val(item.format);
+                    $option.text(item.format);
+                    $select.append($option);
+                });
+            });
+        }
+        function populateSelectType() {
+            console.log('populate select type');
+            const $select = $('#type-select');
+
+            $.getJSON('http://localhost/lab7/php/getByType.php?type=', function(data) {
+                data.forEach(item => {
+                    const $option = $('<option></option>');
+                    $option.val(item.type);
+                    $option.text(item.type);
+                    $select.append($option);
+                });
+            });
+        }
+
+        function populateTable(link){
+            $.getJSON(link, function(data) {
+                var table = $('<table>');
+                var headerRow = $('<tr>');
+                headerRow.append($('<th>').text('#'));
+                headerRow.append($('<th>').text('Title'));
+                headerRow.append($('<th>').text('Author'));
+                headerRow.append($('<th>').text('Number of Pages'));
+                headerRow.append($('<th>').text('Type'));
+                headerRow.append($('<th>').text('Format'));
+                table.append(headerRow);
+
+                if (data.length === 0) {
+                    var row = $('<tr>');
+                    row.append($('<td colspan="6">').text('No documents with the selected format/type.'));
+                    table.append(row);
+                } else {
+                    $.each(data, function (index, document) {
+                        var row = $('<tr>');
+                        row.append($('<td>').text(index + 1));
+                        row.append($('<td>').text(document.title));
+                        row.append($('<td>').text(document.author));
+                        row.append($('<td>').text(document.numberOfPages));
+                        row.append($('<td>').text(document.type));
+                        row.append($('<td>').text(document.format));
+
+                        table.append(row);
+                    });
+
+                }
+                $('#documentTable').append(table);
+
+                if (first === false) {
+                    $('#filterUsed').text('Previous filter: ' + lastFilterUsed);
+                }
+            });
+        }
+
+        $('#format-select').on('change', function() {
+            const format = $(this).val();
+            const link = "http://localhost/lab7/php/getByFormat.php?format=" + format;
+            $('#documentTable').empty();
+            populateTable(link);
+            lastFilterUsed = 'Format: ' + $(this).val();
+            first = false;
+            $('#type-input').val('');
+        });
+
+        $('#format-input').on('change', function() {
+            const format = $(this).val();
+            const link = "http://localhost/lab7/php/getByFormat.php?format=" + format;
+            $('#documentTable').empty();
+            populateTable(link);
+            lastFilterUsed = 'Format: ' + $(this).val();
+            first = false;
+        });
+
+        $('#type-select').on('change', function() {
+            const type = $(this).val();
+            const link = "http://localhost/lab7/php/getByType.php?type=" + type;
+            $('#documentTable').empty();
+            populateTable(link);
+            lastFilterUsed = 'Type: ' + $(this).val();
+            first = false;
+            $('#format-input').val('');
+
+        });
+
+        $('#type-input').on('change', function() {
+            const type = $(this).val();
+            const link = "http://localhost/lab7/php/getByType.php?type=" + type;
+            $('#documentTable').empty();
+            populateTable(link);
+            lastFilterUsed = 'Type: ' + $(this).val();
+            first = false;
+        });
+
+        const $dropdowns = $('.dropdown');
+        const $textboxes = $('.textbox');
+
+        $dropdowns.each((index, dropdown) => {
+            const $textbox = $($textboxes[index]);
+
+            $textbox.on('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    const $newOption = $('<option></option>');
+                    $newOption.val($textbox.val());
+                    $newOption.text($textbox.val());
+                    $(dropdown).append($newOption);
+                    $(dropdown).val($textbox.val());
+                }
+            });
+
+            $(dropdown).on('change', () => {
+                $textbox.val($(dropdown).val());
+            });
+        });
+    });
+</script>
+</html>

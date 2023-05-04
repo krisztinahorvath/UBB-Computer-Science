@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Add document</h1>
+
+    <form action="javascript:postData();">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author"><br><br>
+
+        <label for="numberOfPages">Number of Pages:</label>
+        <input type="number" id="numberOfPages" name="numberOfPages"><br><br>
+
+        <label for="type">Type:</label>
+        <input type="text" id="type" name="type"><br><br>
+
+        <label for="format">Format:</label>
+        <input type="text" id="format" name="format"><br><br>
+
+        <button type="submit" id="submit-btn">Save Changes</button>
+    </form>
+
+</body>
+
+<script>
+    function postData(){
+        const title = $('#title').val();
+        const author = $('#author').val();
+        const numberOfPages = $('#numberOfPages').val();
+        const type = $('#type').val();
+        const format = $('#format').val();
+
+        // if (!title) {
+        //     alert('Please enter a title.');
+        //     return;
+        // }
+        //
+        // if (numberOfPages && isNaN(numberOfPages)) {
+        //     alert('Please enter a valid number for the number of pages.');
+        //     return;
+        // } else if (parseInt(numberOfPages) <= 0) {
+        //     console.log(numberOfPages);
+        //     alert('Please enter a non-null positive number for the number of pages.');
+        //     return;
+        // }
+        //
+        // if(!format){
+        //     alert('Please enter a format.');
+        //     return;
+        // }
+
+        $.ajax({
+            url: "http://localhost/lab7/php/add.php",
+            type: "POST",
+            data: JSON.stringify({
+                title: title,
+                author: author,
+                numberOfPages: numberOfPages,
+                type: type,
+                format: format
+            }),
+            dataType: "json"
+        })
+            .then(function (response) {
+                alert(response.message);
+                window.history.back();
+            }, function (errorData) {
+                alert(JSON.parse(errorData.responseText).message);
+            });
+    }
+</script>
+</html>
