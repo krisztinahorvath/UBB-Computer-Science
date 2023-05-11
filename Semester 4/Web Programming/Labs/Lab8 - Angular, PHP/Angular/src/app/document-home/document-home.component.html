@@ -1,0 +1,30 @@
+<h1>Documents</h1>
+<button (click)="onAddClick()">Add</button>
+<button (click)="onBrowserClick()">Browse</button>
+<table id="documentTable">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Number of Pages</th>
+        <th>Type</th>
+        <th>Format</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let document of documents; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ document.title }}</td>
+            <td>{{ document.author }}</td>
+            <td>{{ document.numberOfPages }}</td>
+            <td>{{ document.type }}</td>
+            <td>{{ document.format }}</td>
+            <td>
+              <button [routerLink]="['/edit']" [queryParams]="{id: document.id}">Edit</button>
+              <button [routerLink]="['/delete']" [queryParams]="{id: document.id}">Delete</button>
+            </td>
+          </tr>
+    </tbody>
+  </table>

@@ -1,0 +1,47 @@
+<h1>Browse</h1>
+
+<div style="display: flex; align-items: center;">
+    <div>Type: </div>
+    <div class="select-editable">
+        <select [(ngModel)]="selectedType" class="dropdown" title="Select a type" (change)="onTypeChange()">
+            <option *ngFor="let type of types" [value]="type">{{ type }}</option>
+        </select>
+        <!-- <input [(ngModel)]="selectedType" type="text" name="format" class="textbox" title="Enter a type" placeholder="Type" (keydown.enter)="onTypeAdd()"> -->
+    </div>
+</div>
+
+
+<div style="display: flex; align-items: center;">
+    <div>Format: </div>
+    <div class="select-editable">
+        <select [(ngModel)]="selectedFormat" class="dropdown" title="Select a format" (change)="onFormatChange()">
+            <option *ngFor="let format of formats" [value]="format">{{ format }}</option>
+        </select>
+        <!-- <input [(ngModel)]="selectedFormat" type="text" name="format" class="textbox" title="Enter a format" placeholder="Format" (keydown.enter)="onFormatAdd()"> -->
+    </div>
+</div>
+
+<div id="previousFilter">{{ previousFilter }}</div>
+<div id="documentTable">
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Number of Pages</th>
+            <th>Type</th>
+            <th>Format</th>
+        </tr>
+        <tr *ngIf="documents.length === 0">
+            <td colspan="6">No documents with the selected format/type.</td>
+        </tr>
+        <tr *ngFor="let document of documents; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ document.title }}</td>
+            <td>{{ document.author }}</td>
+            <td>{{ document.numberOfPages }}</td>
+            <td>{{ document.type }}</td>
+            <td>{{ document.format }}</td>
+        </tr>
+    </table>
+</div>
