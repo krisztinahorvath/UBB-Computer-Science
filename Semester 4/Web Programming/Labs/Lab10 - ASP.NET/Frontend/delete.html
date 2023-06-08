@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Confirmation</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div align="center">
+    <h1>Are you sure you want to delete this document?</h1>
+    <button id="yesButton">Yes</button>
+    <button id="noButton">No</button>
+</div>
+<script>
+    $(document).ready(function() {
+        function deleteDocument(documentId, successCallback){
+            var token = localStorage.getItem("token"); // get the token from local storage
+
+            if (token === "invalid" || token === null) {
+                window.location.replace("login.html");
+                return;
+            }
+
+            // set the authorization header with the bearer token
+            $.ajaxSetup({
+                headers: {
+                    "Authorization": "Bearer " + token
+                }
+            });
+
+            $.ajax({
+                url: "https://localhost:7159/api/documents/" + documentId,
+                type: "DELETE"
+            })
+                .then(function (response){
+                    console.log(response);
+                    if(successCallback){
+                        successCallback();
+                    }
+                }, function(errorData){
+                    console.log(errorData);
+                });
+        }
+
+        document.getElementById("yesButton").addEventListener("click", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const documentId = urlParams.get('id');
+            deleteDocument(documentId, function(){
+                window.history.back();
+            });
+        });
+
+        document.getElementById("noButton").addEventListener("click", function() {
+            window.history.back();
+        });
+    });
+</script>
+</body>
+</html>

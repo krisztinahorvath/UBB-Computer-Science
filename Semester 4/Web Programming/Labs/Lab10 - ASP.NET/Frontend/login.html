@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<form action="javascript:postData();">
+    <div align="center">
+        <input type="text" name="username" autocomplete="off" placeholder="Username" id="username">
+        <input type="password" name="password" autocomplete="off" placeholder="Password" id="password">
+        <button type="submit" id="login-btn">Login</button>
+    </div>
+</form>
+</body>
+
+    <script>
+        function postData(){
+            const username = $('#username').val();
+            const password = $('#password').val();
+
+            $.ajax({
+                url: "https://localhost:7159/api/users/login",
+                type: "POST",
+                data: JSON.stringify({
+                    username: username,
+                    password: password
+                }),
+                dataType: "json",
+                contentType: "application/json"
+            })
+                .then(function (response) {
+                    alert("You logged in successfully!");
+                    localStorage.setItem("token", response.token);
+                    window.location.href = "allDocs.html";
+                }, function (errorData) {
+                    alert(JSON.parse(errorData.responseText).message);
+                    localStorage.setItem("token", "invalid");
+                });
+        }
+
+    </script>
+</html>

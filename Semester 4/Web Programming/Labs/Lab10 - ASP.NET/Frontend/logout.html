@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logout</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div align="center">
+    <h1>Are you sure you want to logout?</h1>
+    <button id="yesButton">Yes</button>
+    <button id="noButton">No</button>
+
+    <script>
+        document.getElementById("yesButton").addEventListener("click", function(){
+            localStorage.setItem("token", "invalid");
+            window.location.href = "login.html";
+        })
+
+        document.getElementById("noButton").addEventListener("click", function() {
+            window.history.back();
+        });
+    </script>
+</div>
+
+</body>
+</html>

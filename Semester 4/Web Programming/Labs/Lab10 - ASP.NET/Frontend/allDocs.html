@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Documents</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var token = localStorage.getItem("token"); // get the token from local storage
+
+            if (token === "invalid" || token === null) {
+                window.location.replace("login.html");
+                return;
+            }
+
+            // set the authorization header with the bearer token
+            $.ajaxSetup({
+                headers: {
+                    "Authorization": "Bearer " + token
+                }
+            });
+
+            $.getJSON("https://localhost:7159/api/documents", function (data) {
+                var table = $('<table>');
+                var headerRow = $('<tr>');
+                headerRow.append($('<th>').text('#'));
+                headerRow.append($('<th>').text('Title'));
+                headerRow.append($('<th>').text('Author'));
+                headerRow.append($('<th>').text('Number of Pages'));
+                headerRow.append($('<th>').text('Type'));
+                headerRow.append($('<th>').text('Format'));
+                headerRow.append($('<th>').text('Actions'));
+                table.append(headerRow);
+
+                $.each(data, function (index, document) {
+                    var row = $('<tr>');
+                    row.append($('<td>').text(index + 1));
+                    row.append($('<td>').text(document.title));
+                    row.append($('<td>').text(document.author));
+                    row.append($('<td>').text(document.numberOfPages));
+                    row.append($('<td>').text(document.type));
+                    row.append($('<td>').text(document.format));
+
+                    var editButton = $('<button>').text('Edit');
+                    editButton.click(function () {
+                        window.location.href = "edit.html?id=" + document.id;
+                    });
+
+                    var deleteButton = $("<button>").text("Delete");
+                    deleteButton.click(function () {
+                        window.location.href = "delete.html?id=" + document.id;
+                    });
+
+                    row.append($('<td>').append(editButton).append(deleteButton));
+
+                    table.append(row);
+                });
+
+                $('#documentTable').append(table);
+            });
+        });
+    </script>
+</head>
+
+<body class="index">
+<h1>Documents</h1>
+<button onclick="window.location.href = 'add.html'">Add</button>
+<button onclick="window.location.href = 'browse.html'">Browse</button>
+<button onclick="window.location.href = 'logout.html'">Logout</button>
+<div id="documentTable"></div>
+</body>
+
+</html>
