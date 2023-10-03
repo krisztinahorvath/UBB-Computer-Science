@@ -102,27 +102,27 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   <tr>
      <td> 17. </td>
     <td> <b>Software Engineering</b> </td>
-    <td>  </td>
+    <td> Software Engineering Principles, Use Case Diagrams, Sequence Diagrams, Mapping Models to Code, Testing </td>
   </tr>
   <tr>
      <td> 18. </td>
     <td><a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Database%20Management%20Systems"> <b>Database Management Systems</b></a></td>
-    <td>  </td>
+    <td> DBMS Architecture, Concurrency Control, Transactions, Locking Protocols, Isolation Levels, Deadlocks, Crash Recovery, Security, Query Optimization</td>
   </tr>
   <tr>
      <td> 19. </td>
     <td><a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Artificial%20Intelligence"> <b>Artificial Intelligence</b></a> </td>
-    <td> Python, Tensorflow </td>
+    <td> Machine Learning, Decision Trees, Artificial Neural Networks, Activation Functions, Loss Functions, Deep Learning, Evolutionary Algorithms</td>
   </tr>
   <tr>
      <td> 20. </td>
     <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Web%20Programming"><b>Web Programming</b></a>  </td>
-    <td> HTML, CSS </td>
+    <td> HTML 5, CSS, JavaScript, jQuery, Angular, PHP, JSP and Java Servlets, ASP.NET   </td>
   </tr>
   <tr>
      <td> 21. </td>
     <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Systems%20for%20Desing%20and%20Implementation"> <b>Systems for Desing and Implementation</b></a> </td>
-    <td>C#, .NET</td>
+    <td>REST APIs, ORM, Migrations, Unit Testing, Deployment to Server, JWT Tokens, Project in C# .NET + React Frontend</td>
   </tr>
  </table>
 
