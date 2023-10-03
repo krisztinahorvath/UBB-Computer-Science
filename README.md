@@ -97,7 +97,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
     <td> TCP/IP stack model, socket programming TCP/UDP, Open System Interconnection(OSI) model, NAT, TCP 3-way handshake, congestion control, helper protocols</td>
   </tr>
    <tr>
-    <td colspan=3 align=center><i>4th Semester - in progress</i></td>
+    <td colspan=3 align=center><i>4th Semester </i></td>
   </tr>
   <tr>
      <td> 17. </td>
@@ -124,7 +124,32 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
     <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Systems%20for%20Desing%20and%20Implementation"> <b>Systems for Desing and Implementation</b></a> </td>
     <td>REST APIs, ORM, Migrations, Unit Testing, Deployment to Server, JWT Tokens, Project in C# .NET + React Frontend</td>
   </tr>
+  <tr>
+    <td colspan=3 align=center><i>5th Semester - in progress</i></td>
+  </tr>
+  <tr>
+     <td> 22. </td>
+    <td> <b>Parallel and Distributed Programming</b> </td>
+    <td>  </td>
+  </tr>
+  <tr>
+     <td> 23. </td>
+    <td> <b>Mobile Application Programming</b></td>
+    <td> </td>
+  </tr>
+  <tr>
+     <td> 24. </td>
+    <td> <b>Formal Languages and Compiler Design</b></td>
+    <td> </td>
+  </tr>
+  <tr>
+     <td> 25. </td>
+    <td> <b>Public-key Cryptography</b> </td>
+    <td>  </td>
+  </tr>
+  <tr>
+     <td> 26. </td>
+    <td> <b>Specialized Protocols in Computer Networks</b> </td>
+    <td></td>
+  </tr>
  </table>
-
-
-   
