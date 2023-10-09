@@ -122,7 +122,7 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   <tr>
      <td> 21. </td>
     <td><a href = "https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%204/Systems%20for%20Desing%20and%20Implementation"> <b>Systems for Desing and Implementation</b></a> </td>
-    <td>REST APIs, ORM, Migrations, Unit Testing, Deployment to Server, JWT Tokens, Project in C# .NET + React Frontend</td>
+    <td>REST APIs, ORM, Migrations, Unit Testing, Deployment to Server, JWT Tokens, Project in C# .NET 7 + React Frontend</td>
   </tr>
   <tr>
     <td colspan=3 align=center><i>5th Semester - in progress</i></td>
