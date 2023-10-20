@@ -1,0 +1,29 @@
+test 1:
+- 3000 bank accounts
+- 10000 threads
+- 10ms check interval
+   => DURATION: 4 seconds 677 milliseconds
+
+test 2:
+- 30 bank accounts
+- 100 threads
+- 10ms check interval
+   => DURATION: 0 seconds 959 milliseconds
+
+test 3:
+- 200 bank accounts
+- 1000 threads
+- 10ms check interval
+   => DURATION: 2 seconds 236 milliseconds
+
+test 4:
+- 1000 bank accounts
+- 100000 threads
+- 10ms check interval
+   => DURATION: 14 seconds 231 milliseconds
+
+test 5:
+- 100000 bank accounts
+- 1000000 threads
+- 10ms check interval
+   => DURATION: 1 minute 43 seconds 963 milliseconds
