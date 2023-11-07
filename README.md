@@ -129,22 +129,22 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   </tr>
   <tr>
      <td> 22. </td>
-    <td> <b>Parallel and Distributed Programming</b> </td>
+    <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%205/Parallel%20and%20Distributed%20Programming"> <b>Parallel and Distributed Programming</b> </td>
     <td>  </td>
   </tr>
   <tr>
      <td> 23. </td>
-    <td> <b>Mobile Application Programming</b></td>
+    <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%205/Mobile%20Applications"><b>Mobile Application Programming</b></td>
     <td> </td>
   </tr>
   <tr>
      <td> 24. </td>
-    <td> <b>Formal Languages and Compiler Design</b></td>
+    <td> <a href="https://github.com/krisztinahorvath/Formal-Languages-and-Compiler-Design"> <b>Formal Languages and Compiler Design</b></td>
     <td> </td>
   </tr>
   <tr>
      <td> 25. </td>
-    <td> <b>Public-key Cryptography</b> </td>
+    <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%205/Cryptography"> <b>Public-key Cryptography</b> </td>
     <td>  </td>
   </tr>
   <tr>
