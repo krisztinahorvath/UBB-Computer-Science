@@ -1,0 +1,19 @@
+Test1:
+- matrix size: 1000 x 1000
+- number of tasks(threads): 10_000 -> time taken: 1.7559144 seconds
+- number of threads in thread pool: 10_000 -> time taken: 1.8963405 seconds
+
+Test2:
+- matrix size: 500 x 500
+- number of tasks(threads): 1000 -> time taken: 0.1475227 seconds
+- number of threads in thread pool: 1000 -> time taken: 0.1488242 seconds
+
+Test3:
+- matrix size: 2000 x 2000
+- number of tasks(threads): 10_000 -> time taken: 9.0591323 seconds
+- number of threads in thread pool:  10_000 -> time taken: 9.9307186 seconds
+
+Test4:
+- matrix size: 2000 x 2000
+- number of tasks(threads): 40_000 -> time taken: 15.3707327 seconds
+- number of threads in thread pool:  40_000 -> time taken: 85.5767154 seconds
