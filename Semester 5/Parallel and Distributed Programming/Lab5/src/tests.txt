@@ -1,0 +1,93 @@
+sequential regular - degrees: 100 & 100, duration: 0.0067595 seconds
+parallel regular - degrees: 100 & 100, duration: 0.0077771 seconds
+sequential Karatsuba - degrees: 100 & 100, duration: 0.0225001 seconds
+parallel Karatsuba - degrees: 100 & 100, duration: 0.0490364 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0624314 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.1085828 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.1182182 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0476114 seconds
+
+sequential regular - degrees: 10000 & 10000, duration: 1.9367019 seconds
+parallel regular - degrees: 10000 & 10000, duration: 0.770648 seconds
+sequential Karatsuba - degrees: 10000 & 10000, duration: 1.1612597 seconds
+parallel Karatsuba - degrees: 10000 & 10000, duration: 0.3115659 seconds
+
+sequential regular - degrees: 100000 & 100000, duration: 119.2264979 seconds
+parallel regular - degrees: 100000 & 100000, duration: 51.4951003 seconds  // 4 threads
+sequential Karatsuba - degrees: 100000 & 100000, duration: 33.6180933 seconds
+parallel Karatsuba - degrees: 100000 & 100000, duration: 10.2738405 seconds  // 4 threads
+
+sequential regular - degrees: 100000 & 100000, duration: 128.4361471 seconds
+parallel regular - degrees: 100000 & 100000, duration: 43.0591941 seconds // 8 threads
+sequential Karatsuba - degrees: 100000 & 100000, duration: 33.56191 seconds
+parallel Karatsuba - degrees: 100000 & 100000, duration: 9.8956311 seconds // 8 threads
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0605763 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0776152 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.1099449 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0476086 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0507673 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0772893 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.1088352 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0556587 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0485523 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0097994 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.1072119 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0870037 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0480368 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0718917 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.0886748 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.038927 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0512948 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.071077 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.0968567 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0426801 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0526477 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0877583 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.1082429 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0698356 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0492489 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0833679 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.1007938 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0371208 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.0461984 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0836048 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.106662 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0542444 seconds
+
+sequential regular - degrees: 1000 & 1000, duration: 0.062845 seconds
+parallel regular - degrees: 1000 & 1000, duration: 0.0867122 seconds
+sequential Karatsuba - degrees: 1000 & 1000, duration: 0.135253 seconds
+parallel Karatsuba - degrees: 1000 & 1000, duration: 0.0531494 seconds
+sequential regular - degrees: 3 & 3, duration: 0.0012343 seconds
+parallel regular - degrees: 3 & 3, duration: 0.0054984 seconds
+sequential Karatsuba - degrees: 3 & 3, duration: 0.0042724 seconds
+parallel Karatsuba - degrees: 3 & 3, duration: 0.0082587 seconds
+sequential regular - degrees: 3 & 3, duration: 0.0011738 seconds
+parallel regular - degrees: 3 & 3, duration: 0.0051712 seconds
+sequential Karatsuba - degrees: 3 & 3, duration: 0.004226 seconds
+parallel Karatsuba - degrees: 3 & 3, duration: 0.0081985 seconds
+sequential regular - degrees: 3 & 3, duration: 0.0015176 seconds
+parallel regular - degrees: 3 & 3, duration: 0.0068481 seconds
+sequential Karatsuba - degrees: 3 & 3, duration: 0.0055785 seconds
+parallel Karatsuba - degrees: 3 & 3, duration: 0.0099901 seconds
+sequential regular - degrees: 3 & 3, duration: 0.0018939 seconds
+parallel regular - degrees: 3 & 3, duration: 0.0103284 seconds
+sequential Karatsuba - degrees: 3 & 3, duration: 0.0054138 seconds
+parallel Karatsuba - degrees: 3 & 3, duration: 0.0117518 seconds
+sequential regular - degrees: 5 & 5, duration: 0.0012466 seconds
+parallel regular - degrees: 5 & 5, duration: 0.0061202 seconds
+sequential Karatsuba - degrees: 5 & 5, duration: 0.0047036 seconds
+parallel Karatsuba - degrees: 5 & 5, duration: 0.0100755 seconds
+sequential regular - degrees: 3 & 3, duration: 0.0013208 seconds
+parallel regular - degrees: 3 & 3, duration: 0.0055658 seconds
+sequential Karatsuba - degrees: 3 & 3, duration: 0.0045326 seconds
+parallel Karatsuba - degrees: 3 & 3, duration: 0.0089987 seconds
