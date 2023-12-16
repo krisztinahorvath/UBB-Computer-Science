@@ -1,0 +1,7 @@
+Hamiltonian cycle - 5 vertices, duration: 0.0076324 seconds
+No Hamiltonian cycle - 5 vertices, duration: 0.003573 seconds
+Hamiltonian cycle - 500 vertices, duration: 0.1207823 seconds
+Hamiltonian cycle - 1000 vertices, duration: 0.2812644 seconds
+Hamiltonian cycle - 2000 vertices, duration: 0.575972 seconds
+Hamiltonian cycle - 3000 vertices, duration: 0.9659397 seconds
+Hamiltonian cycle - 4000 vertices, duration: 1.2058328 seconds
