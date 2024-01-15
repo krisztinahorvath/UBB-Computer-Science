@@ -1,0 +1,44 @@
+regular   - 5 instances - 10,000 degree - DURATION:
+regular   - CPU         - 10,000 degree - DURATION: 1.9367019 seconds
+
+karatsuba - 5 instances - 10,000 degree - DURATION:
+karatsuba - CPU         - 10,000 degree - DURATION: 1.1612597 seconds
+
+regular   - 10 instances - 10,000 degree - DURATION: 0.6341567 seconds
+regular   - CPU          - 10,000 degree - DURATION: 1.9367019 seconds
+
+karatsuba - 10 instances - 10,000 degree - DURATION:
+karatsuba - CPU          - 10,000 degree - DURATION: 1.1612597 seconds
+
+regular   - 10 instances - 30,000 degree - DURATION: 2.9291313 seconds
+regular   - CPU          - 30,000 degree - DURATION: 9.6488049 seconds
+
+karatsuba - 10 instances - 30,000 degree - DURATION: 9.8258666 seconds
+karatsuba - CPU          - 30,000 degree - DURATION: 4.548796299 seconds
+
+regular   - 10 instances - 100,000 degree - DURATION: 27.1660779 seconds
+regular   - CPU          - 100,000 degree - DURATION: 119.2264979 seconds
+
+karatsuba - 5 instances  - 100,000 degree - DURATION: 42.605349101 seconds
+karatsuba - CPU          - 100,000 degree - DURATION: 33.6180933 seconds
+
+regular   - 10 instances   - 1,000,000 degree - DURATION: 27.1660779 seconds
+regular   - CPU            - 1,000,000 degree - DURATION: > 5 minutes
+
+karatsuba - 10 instances   - 1,000,000 degree - DURATION:
+karatsuba - CPU            - 1,000,000 degree - DURATION: > 2 minutes
+
+regular   - 5 instances - 10,000 degree - DURATION: 0.6663138 seconds
+karatsuba - 5 instances - 10,000 degree - DURATION: 1.777391899 seconds
+karatsuba - 4 instances - 10,000 degree - DURATION: 1.5572376 seconds
+karatsuba - 3 instances - 10,000 degree - DURATION: 1.4235335 seconds
+karatsuba - 2 instances - 10,000 degree - DURATION: 1.2444599 seconds
+
+regular   - 5 instances  - 20,000 degree - DURATION: 2.409367699 seconds
+karatsuba - 5 instances  - 20,000 degree - DURATION: 4.369279 seconds
+karatsuba - 3 instances  - 20,000 degree - DURATION: 3.4384552 seconds
+karatsuba - 2 instances  - 20,000 degree - DURATION: 3.1481012 seconds
+karatsuba - 10 instances - 20,000 degree - DURATION: 6.2128953 seconds
+karatsuba - 20 instances - 20,000 degree - DURATION: 12.7056056 seconds
+regular   - 20 instances - 20,000 degree - DURATION: 1.7281703 seconds
+regular   - 30 instances - 20,000 degree - DURATION: 1.9289243 seconds
