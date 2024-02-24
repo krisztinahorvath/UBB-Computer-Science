@@ -125,31 +125,54 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
     <td>REST APIs, ORM, Migrations, Unit Testing, Deployment to Server, JWT Tokens, Project in C# .NET 7 + React Frontend</td>
   </tr>
   <tr>
-    <td colspan=3 align=center><i>5th Semester - in progress</i></td>
+    <td colspan=3 align=center><i>5th Semester </i></td>
   </tr>
   <tr>
      <td> 22. </td>
     <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%205/Parallel%20and%20Distributed%20Programming"> <b>Parallel and Distributed Programming</b> </td>
-    <td>  </td>
+    <td> Multi-threading, Concurrency issues, Thread pools, Futures and promises, Parallel explore, Distributed protocols, MPI </td>
   </tr>
   <tr>
      <td> 23. </td>
     <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%205/Mobile%20Applications"><b>Mobile Application Programming</b></td>
-    <td> </td>
+    <td> Mobile development in Kotlin and Flutter </td>
   </tr>
   <tr>
      <td> 24. </td>
     <td> <a href="https://github.com/krisztinahorvath/Formal-Languages-and-Compiler-Design"> <b>Formal Languages and Compiler Design</b></td>
-    <td> </td>
+    <td> Building a grammar, Scanning, Recursive decent parser, LL(1) parser, LR(0) parser, SLR parser, LR(1) parser </td>
   </tr>
   <tr>
      <td> 25. </td>
     <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%205/Cryptography"> <b>Public-key Cryptography</b> </td>
-    <td>  </td>
+    <td> Primality tests, Factorization methods, Public Key Cryptosystems </td>
   </tr>
   <tr>
      <td> 26. </td>
-    <td> <b>Specialized Protocols in Computer Networks</b> </td>
-    <td></td>
+    <td> <a href="https://github.com/krisztinahorvath/RSA-EncryptedChat"> <b>Specialized Protocols in Computer Networks</b> </td>
+    <td> Wireshark, Windows and Unix firewalls, Raw Socket Programming, IP tunnels </td>
+  </tr>
+  <tr>
+    <td colspan=3 align=center><i>6th Semester - in progress</i></td>
+  </tr>
+  <tr>
+     <td> 27. </td>
+    <td> <b> Software Systems Verification and Validation</b> </td>
+    <td> </td>
+  </tr>
+  <tr>
+     <td> 28. </td>
+    <td> <b> Numerical Calculus</b></td>
+    <td> </td>
+  </tr>
+  <tr>
+     <td> 29. </td>
+    <td>  <b>Business Intelligence</b></td>
+    <td>  </td>
+  </tr>
+  <tr>
+     <td> 30. </td>
+    <td> <b> Design Patterns </b> </td>
+    <td>  </td>
   </tr>
  </table>
