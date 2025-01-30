@@ -3,6 +3,7 @@
 All of my university projects done at Babes-Bolyai University for Computer Science.
 
 ## Table of Contents
+
 <table align=center>
   <tr align=center>
     <td> <b><i>No.</b></i> </td>
@@ -153,26 +154,26 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
     <td> Wireshark, Windows and Unix firewalls, Raw Socket Programming, IP tunnels </td>
   </tr>
   <tr>
-    <td colspan=3 align=center><i>6th Semester - in progress</i></td>
+    <td colspan=3 align=center><i>6th Semester</i></td>
   </tr>
   <tr>
      <td> 27. </td>
-    <td> <b> Software Systems Verification and Validation</b> </td>
-    <td> </td>
+    <td><a href="https://github.com/krisztinahorvath/ssvv"> <b> Software Systems Verification and Validation</b> </td>
+    <td> Unit testing, Integration testing, White-box testing, Black-box testing, Jenkins, TestLink, Selenium Web Driver  </td>
   </tr>
   <tr>
      <td> 28. </td>
-    <td> <b> Numerical Calculus</b></td>
-    <td> </td>
+    <td> <a href=""><b> Numerical Calculus</b></td>
+    <td> Taylor polynomials, Polynomial interpolation, Lagrange interpolation, Newton's divided and finite differences, Matlab </td>
   </tr>
   <tr>
      <td> 29. </td>
-    <td>  <b>Business Intelligence</b></td>
-    <td>  </td>
+    <td> <a href=""> <b>Business Intelligence</b></td>
+    <td> Data staging, ETL process, Data warehouse, Power BI, SQL Server BI </td>
   </tr>
   <tr>
      <td> 30. </td>
     <td> <b> Design Patterns </b> </td>
-    <td>  </td>
+    <td> Creational patterns, Structural patterns, Behavioral patterns, Architectural patterns </td>
   </tr>
  </table>
