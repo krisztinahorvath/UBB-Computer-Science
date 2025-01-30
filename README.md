@@ -163,12 +163,12 @@ All of my university projects done at Babes-Bolyai University for Computer Scien
   </tr>
   <tr>
      <td> 28. </td>
-    <td> <a href=""><b> Numerical Calculus</b></td>
+    <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%206/Numerical%20Calculus"><b> Numerical Calculus</b></td>
     <td> Taylor polynomials, Polynomial interpolation, Lagrange interpolation, Newton's divided and finite differences, Matlab </td>
   </tr>
   <tr>
      <td> 29. </td>
-    <td> <a href=""> <b>Business Intelligence</b></td>
+    <td> <a href="https://github.com/krisztinahorvath/UBB-Computer-Science/tree/main/Semester%206/Business%20Intelligence"> <b>Business Intelligence</b></td>
     <td> Data staging, ETL process, Data warehouse, Power BI, SQL Server BI </td>
   </tr>
   <tr>
